@@ -1,0 +1,119 @@
+.enterprise-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 60px;
+  background-image: var(--section-background-color);
+  color: white;
+}
+
+.enterprise-hero {
+  padding-bottom: 30px;
+}
+
+.enterprise-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  background: rgba(199, 112, 240, 0.12);
+  border: 1px solid rgba(199, 112, 240, 0.28);
+}
+
+.enterprise-title {
+  margin-top: 16px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.enterprise-subtitle {
+  margin-top: 12px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+.enterprise-cta {
+  margin-top: 22px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.enterprise-card {
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: white !important;
+  border: 1px solid rgba(200, 137, 230, 0.22) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  height: 100% !important;
+}
+
+.enterprise-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35) !important;
+}
+
+.enterprise-card .card-title {
+  font-weight: 600;
+}
+
+.enterprise-muted {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.enterprise-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.enterprise-list li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.enterprise-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--imp-text-color);
+}
+
+.enterprise-section-title {
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+.enterprise-divider {
+  height: 1px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.12);
+  margin: 28px 0;
+}
+
+.enterprise-faq .accordion-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(200, 137, 230, 0.18);
+}
+
+.enterprise-faq .accordion-button {
+  background: transparent;
+  color: white;
+  box-shadow: none;
+}
+
+.enterprise-faq .accordion-button::after {
+  filter: invert(1);
+}
+
+.enterprise-faq .accordion-button:not(.collapsed) {
+  color: white;
+  background: rgba(199, 112, 240, 0.08);
+}
+
+.enterprise-faq .accordion-body {
+  color: rgba(255, 255, 255, 0.78);
+}
